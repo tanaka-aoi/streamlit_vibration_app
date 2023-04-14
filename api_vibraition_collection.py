@@ -19,6 +19,8 @@ print(vibration)
 # print(vibration['data']['thi'])
 
 os.chdir('/home/runner/work/streamlit_vibration_app/streamlit_vibration_app/data/')
+files = glob.glob("*")
+print(files)
 with open('data.csv', 'a') as csvFile:
     writer = csv.writer(csvFile, lineterminator="\n")
     
