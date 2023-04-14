@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 
 
 # データ分析関連
@@ -12,8 +12,8 @@ st.bar_chart(df)
 # st.bar_chart(df['設備A'])
 
 # matplotlib
-fig, ax = plt.subplots()
-ax.plot(df.index, df)
-# ax.plot(df.index, df['設備A'])
-ax.set_title('vibration graph')
-st.pyplot(fig)
+# fig, ax = plt.subplots()
+# ax.plot(df.index, df)
+# # ax.plot(df.index, df['設備A'])
+# ax.set_title('vibration graph')
+# st.pyplot(fig)
