@@ -18,7 +18,7 @@ vibration = vibration_json['data']['thi']
 print(vibration)
 # print(vibration['data']['thi'])
 
-os.chdir('C:/Users/pcsysmane/Documents/04_MyIoT/20230405_Qriot_conan_myiot_system/03_app_dev/npc_app')
+# os.chdir('C:/Users/pcsysmane/Documents/04_MyIoT/20230405_Qriot_conan_myiot_system/03_app_dev/npc_app')
 with open('./data/data.csv', 'a') as csvFile:
     writer = csv.writer(csvFile, lineterminator="\n")
     
