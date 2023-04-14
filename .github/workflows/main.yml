@@ -1,9 +1,10 @@
 # ワークフロー名
 name: api_vibraition_collection
 on:
+  push:
   schedule:
     # 定期実行する時間・・・①
-    - cron: ',15,25,35,45,55 * * * *'
+    - cron: '5,15,25,35,45,55 * * * *'
 
 jobs:
   build:
