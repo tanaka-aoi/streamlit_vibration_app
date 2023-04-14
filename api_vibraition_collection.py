@@ -36,3 +36,4 @@ with open('./data/data.csv', 'a') as csvFile:
     writer.writerow(datalist)
     # print(datalist)
 csvFile.close()
+print('end')
