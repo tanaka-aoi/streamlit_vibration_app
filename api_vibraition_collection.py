@@ -37,3 +37,5 @@ with open('./data/data.csv', 'a') as csvFile:
     # print(datalist)
 csvFile.close()
 print('end')
+cwd = os.getcwd()
+print(cwd)
