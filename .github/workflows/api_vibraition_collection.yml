@@ -3,7 +3,7 @@ name: api_vibraition_collection
 on:
   schedule:
     # 定期実行する時間・・・①
-    - cron: '5,15,25,35,45,55 * * * *'
+    - cron: ',15,25,35,45,55 * * * *'
 
 jobs:
   build:
