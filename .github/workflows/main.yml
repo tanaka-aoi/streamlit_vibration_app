@@ -31,3 +31,9 @@ jobs:
         run: |
           # 定期実行するファイルを指定。・・・③
           python api_vibraition_collection.py
+          
+      - name: CSV commit
+        run: |
+          git add .
+          git commit -m "Update csv file"
+          git push origin main
